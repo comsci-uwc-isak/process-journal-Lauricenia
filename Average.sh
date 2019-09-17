@@ -1,24 +1,23 @@
 #!/bin/bash
 
-b=0
-i=0
+sum=0
+n=0
 
 while : 
 do     
-        echo "Enter your number"
-	echo "Press x to exit"
-        read a
+        echo "Enter your number or Exit (X)"
+        read num
 
-      if [ $a == x ]; then
-	echo "Bye Bye"	
-	exit
+      if [ $num == X ]; then
+	    break	
       fi
 
-	((b=$a + $b))
-        ((i++))
-	(( av=$b / $i ))
-	echo "The average is: "$av 
+	(( sum=$num + $num ))
+        (( n++ ))
+	(( ave=$sum / $n ))
+	echo "The average is: "$ave 
 	
 done
-
+echo "Exiting"
+exit 
 #when you atribute a second value to a variable the first one becomes invalid?
