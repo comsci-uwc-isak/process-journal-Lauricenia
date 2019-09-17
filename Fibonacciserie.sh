@@ -13,10 +13,10 @@ b=1
 
 i=0
 
-while [ $i -le $n ] 
+while [ $i -lt $n ] 
 do 
         (( i++ ))
-	echo "The $i Fibonacci term is $a "
+	echo "The $i . Fibonacci term is $a "
 	fn=$(($a + $b))
 	a=$b
 	b=$fn

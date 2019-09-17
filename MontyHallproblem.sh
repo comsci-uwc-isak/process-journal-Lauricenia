@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This program is a simulation of the Monty Hall problem 
+
 echo " Lets play a game."           
 echo " I give you 3 doors, 2 of them are empty and one of them has 1 million
 dollars. You have the chance to choose the door with the money and get rich"
@@ -22,7 +24,7 @@ do
 	   if [ $x -eq 2 ]; then
 	      echo "You chose door $d. Hint: door $(( $x + 1 )) is empty"
 	   fi
-	      echo "Do you want to change doors?"
+	      echo "Do you want to change doors? Enter y(yes) or n (no)"
               read a
               if [ $a == y ]; then
                  echo "choose another"
@@ -43,7 +45,7 @@ do
            if [ $x -eq 3 ]; then
               echo "You chose door $d. Hint: door $(( $x - $d )) is empty"
            fi
-	      echo "Do you want to change?"
+	      echo "Do you want to change?Enter y(yes) or n (no)"
               read a
               if [ $a == y ]; then
                  echo "choose another"
