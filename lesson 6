@@ -1,0 +1,8 @@
+We shared experiences related to what we learn while doing our homework
+We evaluated other peers homework program (Fibonacci series) using a table with specific aspects
+We introduced a new command (forloop):
+for number in 1 2 3 4
+do
+  .....
+done
+Applications/examples: file forloop1.sh 
