@@ -1,0 +1,52 @@
+1.1.5. Alternative installation processes 
+What are the methods of implementation/ conversion of new systems?
+Parallel: 
+* Both system work at the same time (in parallel) for a short peiod of time
+Advantages:
+limited risks
+outputs of both systems can be compared to ensure that the new system is working properly
+if hte new system fails, the company can revert or return to the old system 
+the old system can be terminated after the company is sure of the efficiency of the new system 
+
+disadvatnges 
+extra cost
+workload 
+various organizational tasks
+not efficent if the old and new systems have completely different processing tasks, functions, input or outputs 
+
+Bing Bang or direct:
+*Company plugs in the new system and unplugs the old one at the same time 
+disadnavtages 
+risky 
+alll users need to be trained appropriately before the switvh takes place 
+
+pilot 
+*used in large organizations that have multiple sites. The new system is introduced in one of the sites and extented to
+the other sites over time
+*The first group that adopts the new system is called pilot site or pilot group
+advantages 
+low risk
+the pilot sites can be used as a model for the rest of the company
+after the new system is proved to be succesfull, its implemented to the rest of the company using a changeover 
+method (usually direct)
+
+Phased
+company converts one module at a time, meaning that different parts of the system are converted in different times
+disadvnatges 
+training period extended 
+adoption of the new system takes longer 
+
+
+1.1.6
+data migration
+refers to the trasnfer of data between different formats, storage stypes and systems
+
+problems that may arise
+incapabiblity of moving the information due to incompability or non-recognizable data stuctures 
+data may be lost or not transferred due to a non-complete data transfer or error on the process
+data can be miss interpreted dude to inompability due to each convetions from each vounrty concerning date time and meansuting 
+units 
+
+1.1.7
+types of testig 
+stages, definition and importance
